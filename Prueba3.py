@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 driver = webdriver.Chrome()
 
 # URL de la página web a probar
-url = "https://forms.gle/DVLcPiVFuHT5DMNaA"
+url = "http://localhost:8080"
 driver.get(url)
 
 
