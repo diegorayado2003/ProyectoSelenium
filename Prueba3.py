@@ -1,13 +1,15 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+import time
 
 # Inicializar el navegador web (en este caso, Chrome)
 driver = webdriver.Chrome()
 
 # URL de la página web a probar
-url = "http://localhost:8080"
+url = "https://www.walmart.com.mx/inicio" #https://ferjcabrera.github.io/TECH-ILA/
 driver.get(url)
 
+time.sleep(3)
 
 def contar_mostrar_elementos_no_Interactuables():
     ##Imagenes= driver.find_elements(By.CSS_SELECTOR, "input[type='search']" or "input[type='text']")
@@ -16,7 +18,7 @@ def contar_mostrar_elementos_no_Interactuables():
     print("Elementos no interactuables encontrados:")
     print(f"Imagenes: {len(Imagenes)}")
     for elemento in Imagenes:
-        print(f"- Tipo:{elemento.tag_name}")
+        print(f"- Tipo: {elemento.tag_name},\n source: {elemento.get_attribute('src')} \n descripcion: {elemento.get_attribute('alt')}")
     
 
 
@@ -27,11 +29,12 @@ def contar_mostrar_elementos_Interactuables():
     inputs = driver.find_elements(By.TAG_NAME, "input")
     selectores = driver.find_elements(By.TAG_NAME, "select")
     hyperlinks = driver.find_elements(By.TAG_NAME, "a")
+    
 
     print("Elementos interactuables encontrados:")
     print(f"Barras de búsqueda: {len(barras_de_busqueda)}")
     for elemento in barras_de_busqueda:
-        print(f"- Tipo: {elemento.tag_name}, Valor: {elemento.get_attribute('value')}")
+        print(f"- Tipo: {elemento.tag_name}, Valor: {elemento.get_attribute('value')}, PlacheHolder: {elemento.get_attribute('placeholder')}")
 
     print(f"Botones: {len(botones)}")
     for boton in botones:
@@ -39,7 +42,7 @@ def contar_mostrar_elementos_Interactuables():
 
     print(f"Inputs: {len(inputs)}")
     for input in inputs:
-        print(f"- Tipo: {input.tag_name}, Texto: {input.text}")
+        print(f"- Tipo: {input.tag_name}, Texto: {input.text} PlacheHolder: {input.get_attribute('placeholder')}")
 
     print(f"Hyperlinks: {len(hyperlinks)}")
     for hyperlink in hyperlinks:
@@ -66,6 +69,8 @@ def contar_mostrar_elementos_Interactuables():
 # Ejecutar la función para contar y mostrar elementos
 contar_mostrar_elementos_no_Interactuables()
 contar_mostrar_elementos_Interactuables()
+
+time.sleep(30)
 
 # Cerrar el navegador al finalizar
 driver.quit()
