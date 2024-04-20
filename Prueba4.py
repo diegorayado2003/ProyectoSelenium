@@ -42,20 +42,22 @@ def contar_mostrar_elementos_Interactuables():
     for boton in botones:
         print(f"- Tipo: {boton.tag_name}, Texto: {boton.text}")
 
-    # print(f"\nListas: {len(listas)}")
-    # for lista in listas:
-    #     elementos = lista.find_elements(By.TAG_NAME, "li")
-    #     print(f"- Tipo: {lista.tag_name}, Cantidad de elementos: {len(elementos)}")
-    #     for elemento in elementos:
-    #         print(f"  - Elementos de lista: {elemento.text}")
+    print(f"\nListas: {len(listas)}")
+    for lista in listas:
+        elementos = lista.find_elements(By.TAG_NAME, "li")
+        print(f"- Tipo: {lista.tag_name}, Cantidad de elementos: {len(elementos)}")
+        for elemento in elementos:
+                print(f"  - Elementos de lista: {elemento.text}")
 
     print(f"\nInputs: {len(inputs)}")
     for input in inputs:
         print(f"- Tipo: {input.tag_name}, Texto: {input.text} PlacheHolder: {input.get_attribute('placeholder')}")
 
-    print(f"\nHyperlinks: {len(hyperlinks)}")
+    print(f"\nHyperlinks Totales: {len(hyperlinks)}")
+    print(f"")
     for hyperlink in hyperlinks:
-        print(f"- Tipo: {hyperlink.tag_name}, Texto> {hyperlink.text}")
+            if hyperlink.text not in lista.text:
+                print(f"- Tipo: {hyperlink.tag_name}, Texto> {hyperlink.text}")
 
     print(f"\nSelectores: {len(selectores)}")
     for selector in selectores:
@@ -75,9 +77,14 @@ def contar_mostrar_elementos_Interactuables():
     if not selectores:
         print("No se encontraron selectores.")
 
+
+
 # Ejecutar la función para contar y mostrar elementos
 contar_mostrar_elementos_no_Interactuables()
 contar_mostrar_elementos_Interactuables()
+print("Se termino el analizis")
+
+
 
 time.sleep(30)
 
