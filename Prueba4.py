@@ -44,20 +44,28 @@ def contar_mostrar_elementos_Interactuables():
 
     print(f"\nListas: {len(listas)}")
     for lista in listas:
-        elementos = lista.find_elements(By.TAG_NAME, "li")
-        print(f"- Tipo: {lista.tag_name}, Cantidad de elementos: {len(elementos)}")
-        for elemento in elementos:
-                print(f"  - Elementos de lista: {elemento.text}")
+        elementos_lista = lista.find_elements(By.TAG_NAME, "li")
+        print(f"- Tipo: {lista.tag_name}, Cantidad de elementos: {len(elementos_lista)}")
+        print(f"-- Elementos de la lista: ")
+        for elemento in elementos_lista:
+            print(f"  - Descripcion: {elemento.text}")
 
     print(f"\nInputs: {len(inputs)}")
     for input in inputs:
-        print(f"- Tipo: {input.tag_name}, Texto: {input.text} PlacheHolder: {input.get_attribute('placeholder')}")
+        if input.text not in elemento.text:
+            print(f"- Tipo: {input.tag_name}, Texto: {input.text} PlacheHolder: {input.get_attribute('placeholder')}")
+        else:
+            print("Se enecontraron los inputs en otros objetos como la barra de busqueda")
 
     print(f"\nHyperlinks Totales: {len(hyperlinks)}")
-    print(f"")
+    print(f" Hyperlinks fuera de listas")
     for hyperlink in hyperlinks:
             if hyperlink.text not in lista.text:
-                print(f"- Tipo: {hyperlink.tag_name}, Texto> {hyperlink.text}")
+                print(f"- Tipo: {hyperlink.tag_name}, Texto: {hyperlink.text}")
+    print(f"Hyperlinks en listas: ")
+    for hyperlink in hyperlinks:
+            if hyperlink.text in lista.text:
+                print(f"- Tipo: {hyperlink.tag_name}, Texto: {hyperlink.text}")
 
     print(f"\nSelectores: {len(selectores)}")
     for selector in selectores:
@@ -82,7 +90,7 @@ def contar_mostrar_elementos_Interactuables():
 # Ejecutar la función para contar y mostrar elementos
 contar_mostrar_elementos_no_Interactuables()
 contar_mostrar_elementos_Interactuables()
-print("Se termino el analizis")
+print("\nSE TERMINO EL ANALIZIS")
 
 
 
