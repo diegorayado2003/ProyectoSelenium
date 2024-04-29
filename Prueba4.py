@@ -32,6 +32,7 @@ def contar_mostrar_elementos_Interactuables():
     selectores = driver.find_elements(By.TAG_NAME, "select")
     hyperlinks = driver.find_elements(By.TAG_NAME, "a")
     
+    
 
     print("Elementos interactuables encontrados:")
     print(f"\nBarras de búsqueda: {len(barras_de_busqueda)}")
@@ -91,6 +92,8 @@ def contar_mostrar_elementos_Interactuables():
 contar_mostrar_elementos_no_Interactuables()
 contar_mostrar_elementos_Interactuables()
 print("\nSE TERMINO EL ANALIZIS")
+
+
 
 
 
