@@ -3,18 +3,26 @@ from selenium.webdriver.common.by import By
 import csv
 import time
 from datetime import datetime
+import psycopg2
 
 # Inicializar el navegador web (en este caso, Chrome)
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 
 # URL de la página web a probar
 url = "https://ferjcabrera.github.io/TECH-ILA/" #https://ferjcabrera.github.io/TECH-ILA/
 driver.get(url)
 
+# para iniciar conexcion con bd
+conn = psycopg2.connect(host ="localhost", dbname="selenium_prueba", user= "postgres", 
+                        password ="password.123", port = "5432")
+
+cur = conn.cursor()
+
 time.sleep(3)
 
 # Crear o abrir el archivo CSV en modo de escritura
 with open('objetos.csv', 'w', newline='') as archivo_csv:
+
     # Definir las columnas del CSV
     campos = ['id_prueba','nombre', 'tipo', 'fecha']
     # Crear el escritor CSV
@@ -48,8 +56,18 @@ with open('objetos.csv', 'w', newline='') as archivo_csv:
         print("Elementos interactuables encontrados:")
         print(f"\nBarras de búsqueda: {len(barras_de_busqueda)}")
         for elemento in barras_de_busqueda:
+
+            tipo = elemento.tag_name
+            nombre = elemento.get_attribute('value')
+            id_prueba = crear_id()
+
             print(f"- Tipo: {elemento.tag_name}, Valor: {elemento.get_attribute('value')}, PlacheHolder: {elemento.get_attribute('placeholder')}")
-            escritor_csv.writerow({'id_prueba': crear_id(),'nombre': elemento.get_attribute('value'), 'tipo': elemento.tag_name, 'fecha': obtener_fecha_hora()})
+            #escritor_csv.writerow({'id_prueba': crear_id(),'nombre': elemento.get_attribute('value'), 'tipo': elemento.tag_name, 'fecha': obtener_fecha_hora()})
+            escritor_csv.writerow({'id_prueba': crear_id(),'nombre': elemento.get_attribute('value'), 'tipo': elemento.tag_name})
+            #añadir objeto a base de datos
+            comando_insertar = "INSERT INTO objetos(nombre, tipo, pruebaid) VALUES ( " + " '"  + nombre + "' " + ", '" + tipo + "' , '" + id_prueba + "')"
+            #print(comando_insertar)
+            cur.execute(comando_insertar)
             #Ingresar dato en la barra de busqueda por placeholder, por si hay mas de una barra de busqueda
             if elemento.get_attribute('placeholder') == "Search...":
                 elemento.send_keys("Hola")
@@ -61,8 +79,15 @@ with open('objetos.csv', 'w', newline='') as archivo_csv:
         print(f"\nBotones: {len(botones)}")
         boton_encontrado = False
         for boton in botones:
+
+            tipo = boton.tag_name
+            nombre = boton.text
+            id_prueba = crear_id()
+            
             print(f"- Tipo: {boton.tag_name}, Texto: {boton.text}")
             escritor_csv.writerow({'id_prueba': crear_id(),'nombre': boton.text, 'tipo': boton.tag_name})
+            comando_insertar = "INSERT INTO objetos(nombre, tipo, pruebaid) VALUES ( " + " '"  + nombre + "' " + ", '" + tipo + "' , '" + id_prueba + "')"
+            cur.execute(comando_insertar)
 
             #Dar click al boton por medio del texto 
             if boton.text == "Login":
@@ -76,14 +101,22 @@ with open('objetos.csv', 'w', newline='') as archivo_csv:
 
         print(f"\nInputs: {len(inputs)}")
         input_encontrado = False
-        for input in inputs:            
-                print(f"- Tipo: {input.tag_name}, Texto: {input.text} PlacheHolder: {input.get_attribute('placeholder')}")
-                escritor_csv.writerow({'id_prueba': crear_id(),'nombre': input.get_attribute('placeholder'), 'tipo': input.tag_name})
-                #Poner Balor en algun input dependiendo de el text
-                if input.text == "Cualquier Cosa":
-                    input_encontrado = True
-                    input.send_keys("Cualquier Cosa")
-                print("Se enecontraron los inputs en otros objetos como la barra de busqueda")
+        for input in inputs:    
+
+            tipo = input.tag_name
+            nombre = input.get_attribute('placeholder')
+            id_prueba = crear_id()
+
+            print(f"- Tipo: {input.tag_name}, Texto: {input.text} PlacheHolder: {input.get_attribute('placeholder')}")
+            escritor_csv.writerow({'id_prueba': crear_id(),'nombre': input.get_attribute('placeholder'), 'tipo': input.tag_name})
+            comando_insertar = "INSERT INTO objetos(nombre, tipo, pruebaid) VALUES ( " + " '"  + nombre + "' " + ", '" + tipo + "' , '" + id_prueba + "')"
+            cur.execute(comando_insertar)
+
+            #Poner Balor en algun input dependiendo de el text
+            if input.text == "Cualquier Cosa":
+                input_encontrado = True
+                input.send_keys("Cualquier Cosa")
+            print("Se enecontraron los inputs en otros objetos como la barra de busqueda")
         if not input_encontrado:
             print("No se econtro el Input especificado")
 
@@ -92,9 +125,17 @@ with open('objetos.csv', 'w', newline='') as archivo_csv:
         print(f"\nHyperlinks Totales: {len(hyperlinks)}")
         hyperlink_encontrado = False
         for hyperlink in hyperlinks:
+
+            tipo = hyperlink.tag_name
+            nombre = hyperlink.text
+            id_prueba = crear_id()
+
             if hyperlink.text != "":
                 print(f"- Tipo: {hyperlink.tag_name}, Texto: {hyperlink.text}")
                 escritor_csv.writerow({'id_prueba': crear_id(),'nombre': hyperlink.text, 'tipo': hyperlink.tag_name})
+                comando_insertar = "INSERT INTO objetos(nombre, tipo, pruebaid) VALUES ( " + " '"  + nombre + "' " + ", '" + tipo + "' , '" + id_prueba + "')"
+                cur.execute(comando_insertar)
+
                 if hyperlink.text =="Home":
                     hyperlink_encontrado = True
                     hyperlink.click
@@ -124,17 +165,20 @@ with open('objetos.csv', 'w', newline='') as archivo_csv:
 
 
 
+
     # Ejecutar la función para contar y mostrar elementos
     contar_mostrar_elementos_Interactuables()
 
 
     print("\nSE CREO UN REPORTE DE TODOS LOS OBJETOS CORRECTAMENTE")
 
+# aplicar cambios y cerrar conexion con bd
+conn.commit()
+cur.close()
+conn.close()
 
 
-
-
-time.sleep(10)
+time.sleep(5)
 
 # Cerrar el navegador al finalizar
 driver.quit()
