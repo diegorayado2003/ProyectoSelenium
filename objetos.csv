@@ -1,1 +1,19 @@
-nombre,tipo
+id_prueba,nombre,tipo,fecha
+P1230,,input,2024-05-02 12:30:10
+P1230,Login,button,
+P1230,Sign-up,button,
+P1230,Primary,button,
+P1230,Default,button,
+P1230,Search...,input,
+P1230,Home,a,
+P1230,Features,a,
+P1230,Pricing,a,
+P1230,FAQs,a,
+P1230,About,a,
+P1230,Learn more,a,
+P1230,Buy,a,
+P1230,Home,a,
+P1230,Features,a,
+P1230,Pricing,a,
+P1230,FAQs,a,
+P1230,About,a,
