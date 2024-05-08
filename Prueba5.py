@@ -3,10 +3,10 @@ from selenium.webdriver.common.by import By
 import csv
 import time
 from datetime import datetime
-import psycopg2
+import psycopg2 
 
 # Inicializar el navegador web (en este caso, Chrome)
-driver = webdriver.Firefox()
+driver = webdriver.Chrome()
 
 # URL de la página web a probar
 url = "https://ferjcabrera.github.io/TECH-ILA/" #https://ferjcabrera.github.io/TECH-ILA/
@@ -14,7 +14,7 @@ driver.get(url)
 
 # para iniciar conexcion con bd
 conn = psycopg2.connect(host ="localhost", dbname="selenium_prueba", user= "postgres", 
-                        password ="password.123", port = "5432")
+                        password ="", port = "5432")
 
 cur = conn.cursor()
 
@@ -30,18 +30,18 @@ with open('objetos.csv', 'w', newline='') as archivo_csv:
     # Escribir la cabecera
     escritor_csv.writeheader()
 
+    #Funcion para obtener la fecha y la hora
     def obtener_fecha_hora():
         now = datetime.now()
         fecha_hora = now.strftime("%Y-%m-%d %H:%M:%S")
         return fecha_hora
 
+    #Funcion para obtener crear el id de los objetos
     def crear_id():
         now = datetime.now()
         fecha_hora_sin_espacios = now.strftime("P%H:%M:")
         id = fecha_hora_sin_espacios.replace('-', '').replace(':', '').replace(' ', '')
         return id
-
-
 
     # Función para contar y mostrar todos los elementos
     def contar_mostrar_elementos_Interactuables():
@@ -58,12 +58,11 @@ with open('objetos.csv', 'w', newline='') as archivo_csv:
         for elemento in barras_de_busqueda:
 
             tipo = elemento.tag_name
-            nombre = elemento.get_attribute('value')
+            nombre = elemento.get_attribute('placeholder')
             id_prueba = crear_id()
 
             print(f"- Tipo: {elemento.tag_name}, Valor: {elemento.get_attribute('value')}, PlacheHolder: {elemento.get_attribute('placeholder')}")
-            #escritor_csv.writerow({'id_prueba': crear_id(),'nombre': elemento.get_attribute('value'), 'tipo': elemento.tag_name, 'fecha': obtener_fecha_hora()})
-            escritor_csv.writerow({'id_prueba': crear_id(),'nombre': elemento.get_attribute('value'), 'tipo': elemento.tag_name})
+            escritor_csv.writerow({'id_prueba': crear_id(),'nombre': elemento.get_attribute('placeholder'), 'tipo': elemento.tag_name})
             #añadir objeto a base de datos
             comando_insertar = "INSERT INTO objetos(nombre, tipo, pruebaid) VALUES ( " + " '"  + nombre + "' " + ", '" + tipo + "' , '" + id_prueba + "')"
             #print(comando_insertar)
@@ -168,6 +167,7 @@ with open('objetos.csv', 'w', newline='') as archivo_csv:
 
     # Ejecutar la función para contar y mostrar elementos
     contar_mostrar_elementos_Interactuables()
+
 
 
     print("\nSE CREO UN REPORTE DE TODOS LOS OBJETOS CORRECTAMENTE")
