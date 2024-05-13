@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 import csv
 import time
 from datetime import datetime
@@ -165,9 +166,15 @@ with open('objetos.csv', 'w', newline='') as archivo_csv:
         for elemento in barras_de_busqueda:
             if elemento.get_attribute('placeholder') == "Search...":
                 elemento.send_keys("Hola")
+                elemento.send_keys(Keys.RETURN)
                 print("Se puso el dato correcto en la barra de busqueda")
             else:
                print("No se ecntontro la barra de busqueda con ese palceholder")
+
+    barras_de_busqueda, botones, inputs, selectores, hyperlinks = contar_mostrar_elementos_Interactuables()
+
+
+        
         
 
 
@@ -182,7 +189,7 @@ with open('objetos.csv', 'w', newline='') as archivo_csv:
 conn.commit()
 cur.close()
 conn.close()
-
+print("Se mando todo a la base de datos")
 
 time.sleep(5)
 
