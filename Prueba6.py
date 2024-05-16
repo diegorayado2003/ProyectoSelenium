@@ -10,7 +10,7 @@ import psycopg2
 driver = webdriver.Chrome()
 
 # URL de la página web a probar
-url = "https://ferjcabrera.github.io/TECH-ILA/" #https://ferjcabrera.github.io/TECH-ILA/
+url = "https://www.mercadolibre.com.mx" #https://ferjcabrera.github.io/TECH-ILA/ #https://www.heb.com.mx
 driver.get(url)
 
 # para iniciar conexcion con bd
@@ -19,7 +19,7 @@ conn = psycopg2.connect(host ="localhost", dbname="selenium_prueba", user= "post
 
 cur = conn.cursor()
 
-time.sleep(3)
+time.sleep(7)
 
 # Crear o abrir el archivo CSV en modo de escritura
 with open('objetos.csv', 'w', newline='') as archivo_csv:
@@ -123,13 +123,14 @@ with open('objetos.csv', 'w', newline='') as archivo_csv:
 
             tipo = hyperlink.tag_name
             nombre = hyperlink.text
+            href = hyperlink.get_attribute("href")
             id_prueba = crear_id()
 
-            if hyperlink.text != "":
-                print(f"- Tipo: {hyperlink.tag_name}, Texto: {hyperlink.text}")
-                escritor_csv.writerow({'id_prueba': crear_id(),'nombre': hyperlink.text, 'tipo': hyperlink.tag_name})
-                comando_insertar = "INSERT INTO objetos(nombre, tipo, pruebaid) VALUES ( " + " '"  + nombre + "' " + ", '" + tipo + "' , '" + id_prueba + "')"
-                cur.execute(comando_insertar)
+            
+            print(f"- Tipo: {hyperlink.tag_name}, Texto: {hyperlink.text}, Href: {href}")
+            escritor_csv.writerow({'id_prueba': crear_id(),'nombre': hyperlink.text, 'tipo': hyperlink.tag_name})
+            comando_insertar = "INSERT INTO objetos(nombre, tipo, pruebaid) VALUES ( " + " '"  + nombre + "' " + ", '" + tipo + "' , '" + id_prueba + "')"
+            cur.execute(comando_insertar)
 
              #   if hyperlink.text =="Home":
              #       hyperlink_encontrado = True
@@ -159,27 +160,30 @@ with open('objetos.csv', 'w', newline='') as archivo_csv:
 
         return barras_de_busqueda, botones, inputs, selectores, hyperlinks
     
-    barras_de_busqueda, botones, inputs, selectores, hyperlinks = contar_mostrar_elementos_Interactuables()
+    
 
     def crear_prueba():
         print("Se esta ejecutando la prueba")
-        for elemento in barras_de_busqueda:
-            if elemento.get_attribute('placeholder') == "Search...":
-                elemento.send_keys("Hola")
+        for elemento in barras_de_busqueda or inputs:
+            if elemento.get_attribute('placeholder') == "Buscar productos, marcas y más…":
+                elemento.send_keys("Queso")
                 elemento.send_keys(Keys.RETURN)
                 print("Se puso el dato correcto en la barra de busqueda")
+
+                
             else:
                print("No se ecntontro la barra de busqueda con ese palceholder")
 
-    barras_de_busqueda, botones, inputs, selectores, hyperlinks = contar_mostrar_elementos_Interactuables()
+    time.sleep(10)
+    
+      
 
-
-        
-        
-
-
+    
     # Ejecutar la función para contar y mostrar elementos
+    barras_de_busqueda, botones, inputs, selectores, hyperlinks = contar_mostrar_elementos_Interactuables()
     crear_prueba()
+    barras_de_busqueda, botones, inputs, selectores, hyperlinks = contar_mostrar_elementos_Interactuables()
+    
     
 
 
