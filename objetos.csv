@@ -1,55 +1,115 @@
 id_prueba,nombre,tipo,fecha
-P1042,Página 1,button,
-P1042,Página 2,button,
-P1042,Página 3,button,
-P1042,Página 4,button,
-P1042,Página 5,button,
-P1042,Página 6,button,
-P1042,Página 7,button,
-P1042,Página 1,button,
-P1042,Página 2,button,
-P1042,Página 3,button,
-P1042,Más información,button,
-P1042,Aceptar cookies,button,
-P1042,Configurar cookies,button,
-P1042,Mercado Libre México - Donde comprar y vender de todo,a,
-P1042,Ingresa tu domicilio,a,
-P1042,Categorías,a,
-P1042,Ofertas,a,
-P1042,Historial,a,
-P1042,Supermercado,a,
-P1042,Vender,a,
-P1042,Crea tu cuenta,a,
-P1042,Ingresa,a,
-P1042,Mis compras,a,
-P1042,0 productos en tu carrito,a,
-P1042,OFERTAS DEL DÍA,a,
-P1042,TOP DESCUENTOS,a,
-P1042,MERCADO PLAY,a,
-P1042,TENIS,a,
-P1042,CLIMATIZACIÓN,a,
-P1042,DESCUENTOS EN ELECTRO,a,
-P1042,PERFUMES,a,
-P1042,PRODUCTOS DESDE USA,a,
-P1042,10% CUPÓN + BONIFICACIÓN,a,
-P1042,10% CUPÓN,a,
-P1042,10% CUPÓN CON CUENTA DIGITAL,a,
-P1042,10% CUPÓN,a,
-P1042,15% CUPÓN,a,
-P1042,10% CUPÓN,a,
-P1042,10% CUPÓN,a,
-P1042,10% CUPÓN,a,
-P1042,Ver más bancos,a,
-P1042,LLANTAS,a,
-P1042,MOTOS,a,
-P1042,INSTRUMENTOS MUSICALES,a,
-P1042,MASCOTAS,a,
-P1042,CÁMARAS Y DRONES,a,
-P1042,SALUD,a,
-P1042,SUSTENTABLES,a,
-P1042,DESCUENTOS EN TU HOGAR,a,
-P1042,Ver más,a,
-P1042,"OFERTA DEL DÍA
+P0956,Página 1,button,
+P0956,Página 2,button,
+P0956,Página 3,button,
+P0956,Página 4,button,
+P0956,Página 5,button,
+P0956,Página 6,button,
+P0956,Página 7,button,
+P0956,Página 1,button,
+P0956,Página 2,button,
+P0956,Página 3,button,
+P0956,Más información,button,
+P0956,Aceptar cookies,button,
+P0956,Configurar cookies,button,
+P0956,Mercado Libre México - Donde comprar y vender de todo,a,
+P0956,Ingresa tu domicilio,a,
+P0956,Categorías,a,
+P0956,Ofertas,a,
+P0956,Historial,a,
+P0956,Supermercado,a,
+P0956,Vender,a,
+P0956,Crea tu cuenta,a,
+P0956,Ingresa,a,
+P0956,Mis compras,a,
+P0956,0 productos en tu carrito,a,
+P0956,LLEGA EN 24 HRS,a,
+P0956,OFERTAS DEL DÍA,a,
+P0956,TOP DESCUENTOS,a,
+P0956,TENIS,a,
+P0956,MERCADO PLAY,a,
+P0956,REMATES,a,
+P0956,CLIMATIZACIÓN,a,
+P0956,DESCUENTOS EN ELECTRO,a,
+P0956,10% CUPÓN + BONIFICACIÓN,a,
+P0956,15% CUPÓN,a,
+P0956,10% CUPÓN CUENTA DIG.,a,
+P0956,10% CUPÓN,a,
+P0956,20% CUPÓN,a,
+P0956,15% CUPÓN,a,
+P0956,10% CUPÓN,a,
+P0956,10% CUPÓN,a,
+P0956,Ver más bancos,a,
+P0956,Ver más,a,
+P0956,"$ 1,299
+$ 504
+61% OFF
+Envío gratis
+Levis® 512 Slim Taper",a,
+P0956,"$ 607
+$ 298
+50% OFF
+Zapatos De Seguridad Hombre Mujer Zapatillas Trabajo Tenis",a,
+P0956,"$ 329
+$ 230
+30% OFF
+Envío gratis
+La Roche-posay Cicaplast Baume B5+",a,
+P0956,"$ 189
+$ 105
+44% OFF
+Vaso Térmico Portátil De Acero Inoxidable 20oz Con Calor/frí",a,
+P0956,"$ 259
+$ 10744
+58% OFF
+6 meses sin intereses
+de $ 17
+72 Colores Marcadores Plumones Punta De Pincel Dual Brush",a,
+P0956,LLANTAS,a,
+P0956,MOTOS,a,
+P0956,INSTRUMENTOS MUSICALES,a,
+P0956,MASCOTAS,a,
+P0956,CÁMARAS Y DRONES,a,
+P0956,SALUD,a,
+P0956,SUSTENTABLES,a,
+P0956,DESCUENTOS EN TU HOGAR,a,
+P0956,Ver más,a,
+P0956,"OFERTA DEL DÍA
+$ 1,299
+$ 630
+51% OFF
+Envío gratis
+adidas Ultimashow Mujer Adultos",a,
+P0956,"$ 3,999
+$ 2,759
+31% OFF
+Envío gratis
+Bicicleta Fija Spinning 8kg Banda/monitor/sensores Pulso",a,
+P0956,"OFERTA DEL DÍA
+$ 6,999
+$ 3,299
+52% OFF
+Envío gratis
+Bicicleta Montaña Mountain Bike Ruta R29 Freno Disco Acero",a,
+P0956,"OFERTA DEL DÍA
+$ 1,299
+$ 630
+51% OFF
+Envío gratis
+adidas Ultimashow Mujer Adultos",a,
+P0956,"$ 5,098
+$ 3,999
+21% OFF
+Envío gratis
+2 Pesas Mancuernas Peso Ajustable Par 5-52.5 Lb (2.5-24 Kg) Color Negro",a,
+P0956,Ver más,a,
+P0956,"OFERTA DEL DÍA
+$ 2,499
+$ 1,449
+42% OFF
+Envío gratis
+Zte Smartphone Blade A54 128gb 4gb Ram Gris",a,
+P0956,"OFERTA DEL DÍA
 $ 15,999
 $ 9,499
 40% OFF
@@ -57,7 +117,15 @@ $ 9,499
 de $ 527
 Envío gratis
 Laptop Lenovo Ideapad 3 15.6'' Ryzen 7 16gb Ram 512gb Ssd",a,
-P1042,"OFERTA DEL DÍA
+P0956,"OFERTA DEL DÍA
+$ 10,099
+$ 5,759
+42% OFF
+18 meses sin intereses
+de $ 319
+Envío gratis
+Televisor Tcl 50s453 50'' 4k Uhd Hdr10 Roku Dolby Digital",a,
+P0956,"OFERTA DEL DÍA
 $ 5,900
 $ 4,720
 20% OFF
@@ -65,177 +133,154 @@ $ 4,720
 de $ 262
 Envío gratis
 Kit Starlink De Internet Vía Satélite",a,
-P1042,"OFERTA DEL DÍA
-$ 509
-$ 26950
-47% OFF
+P0956,"$ 509
+$ 299
+41% OFF
 Envío gratis
 Gel Cerave Limpiador Espumoso Piel Normal A Grasa De 473 Ml",a,
-P1042,"OFERTA DEL DÍA
-$ 279
-$ 140
-49% OFF
-Envío gratis
-Protector Solar Facial Nivea Sun Control Brillo Fps50 50ml",a,
-P1042,"OFERTA DEL DÍA
-$ 1,618
-$ 1,094
-32% OFF
-Envío gratis
-Tenis adidas Grand Court Lifestyle Estilo Casual Para Mujer",a,
-P1042,"HASTA
+P0956,"HASTA
 30% OFF
 VICHY
 Ver ofertas",a,
-P1042,"HASTA
+P0956,"HASTA
 50% OFF
 SAMSUNG
 Ver ofertas",a,
-P1042,"HASTA
+P0956,"HASTA
 50% OFF
 HUAWEI
 Ver ofertas",a,
-P1042,"HASTA
+P0956,"HASTA
 65% OFF
 XIAOMI
 Ver ofertas",a,
-P1042,"HASTA
+P0956,"HASTA
 50% OFF
 HASBRO
 Ver ofertas",a,
-P1042,"HASTA
+P0956,"HASTA
 65% OFF
 EMMA
 Ver ofertas",a,
-P1042,"HASTA
+P0956,"HASTA
 55% OFF
 LENOVO
 Ver ofertas",a,
-P1042,"HASTA
+P0956,"HASTA
 60% OFF
 AMERICAN EAGLE
 Ver ofertas",a,
-P1042,"HASTA
+P0956,"HASTA
 35% OFF
 NIVEA
 Ver ofertas",a,
-P1042,"HASTA
+P0956,"HASTA
 35% OFF
 NEUTROGENA
 Ver ofertas",a,
-P1042,"HASTA
+P0956,"HASTA
 37% OFF
 GARNIER
 Ver ofertas",a,
-P1042,"HASTA
+P0956,"HASTA
 50% OFF
 HUGO BOSS
 Ver ofertas",a,
-P1042,"HASTA
+P0956,"HASTA
 45% OFF
 P&G
 Ver ofertas",a,
-P1042,"HASTA
+P0956,"HASTA
 50% OFF
 SOGNARE
 Ver ofertas",a,
-P1042,"HASTA
+P0956,"HASTA
 60% OFF
 AVERA
 Ver ofertas",a,
-P1042,"HASTA
-40% OFF
+P0956,"HASTA
+50% OFF
 ANDREA
 Ver ofertas",a,
-P1042,Ver más,a,
-P1042,"OFERTA DEL DÍA
-$ 9,999
-$ 7,399
-26% OFF
+P0956,Ver más,a,
+P0956,"OFERTA DEL DÍA
+$ 10,299
+$ 6,299
+38% OFF
 18 meses sin intereses
-de $ 411
+de $ 349
 Envío gratis
-Pantalla Hisense 55 4k Googletv Con Dolby Vision 55a7k",a,
-P1042,"OFERTA DEL DÍA
-$ 5,999
-$ 4,119
-31% OFF
+Laptop Hp 14-dq5024la Intel Core I3 8gb Ram 512 Gb Ssd",a,
+P0956,"OFERTA DEL DÍA
+$ 4,300
+$ 2,750
+36% OFF
 18 meses sin intereses
-de $ 228
+de $ 152
 Envío gratis
-Motorola Moto G84 256 GB Negro Espacial 8 GB RAM",a,
-P1042,"$ 1,799
-$ 1,207
-32% OFF
-9 meses sin intereses
-de $ 134
+Philips Colgate Sonicpro 70 cepillo de dientes eléctrico",a,
+P0956,"OFERTA DEL DÍA
+$ 2,499
+$ 1,449
+42% OFF
 Envío gratis
-Tenis Skechers 117436slt Bobs Unity Mujer",a,
-P1042,"OFERTA DEL DÍA
-$ 2,359
-$ 1,299
-44% OFF
+Zte Smartphone Blade A54 128gb 4gb Ram Gris",a,
+P0956,"OFERTA DEL DÍA
+$ 8,649
+$ 3,699
+57% OFF
+18 meses sin intereses
+de $ 205
 Envío gratis
-Batería De Cocina Ekco 32 Piezas Con Aluminio Antiadherente Color Golden rose",a,
-P1042,"OFERTA DEL DÍA
+Colchón América Matrimonial Frida Con Tecnología Perferct Side Y Descanso Ortopédico, Altura De 28 Cm Y Con Tratamiento Antibacterial, De Confort Medio",a,
+P0956,"OFERTA DEL DÍA
+$ 31,599
+$ 16,499
+47% OFF
+18 meses sin intereses
+de $ 916
+Smart Tv Pantalla 65 Tcl 65qm850g Google Tv Miniled Imax",a,
+P0956,"$ 1,048
+$ 70216
+33% OFF
+Envío gratis
+Mesa 180cm de exterior Vitasense Garden MESA-03 de acero/plástico color blanco",a,
+P0956,"$ 512
+$ 24879
+51% OFF
+Crema Hidratante Corporal Cetaphil En Pote 453g",a,
+P0956,"OFERTA DEL DÍA
+$ 1,249
+$ 78749
+36% OFF
+Envío gratis
+Zapato Flexi Para Hombre Estilo 413005 Negro",a,
+P0956,"OFERTA DEL DÍA
 $ 3,390
-$ 2,199
-35% OFF
+$ 2,059
+39% OFF
 Envío gratis
 Tenis Lacoste Piel Modelo Chaymon Hombre",a,
-P1042,"$ 1,629
-$ 1,260
-22% OFF
-9 meses sin intereses
-de $ 140
-Envío gratis
-Batería De Cocina De Aluminio Cinsa Magnífica 319455 Con Antiadherente Rojo Metálico 10 Piezas",a,
-P1042,"$ 1,599
-$ 1,066
-33% OFF
-6 meses sin intereses
-de $ 177
-Envío gratis
-Batería Equipa Tu Cocina De Aluminio Cinsa Esencial Con Antiadherente De 15 Piezas Rojo",a,
-P1042,"$ 999
-$ 519
-48% OFF
-Envío gratis
-Figura de acción Indoraptor Track´n Attack HKY11 de Mattel Jurassic World",a,
-P1042,"OFERTA DEL DÍA
-$ 2,659
-$ 2,078
-21% OFF
-18 meses sin intereses
-de $ 115
-Envío gratis
-Celular Poco C65 256gb 8gb Black Color Negro",a,
-P1042,"OFERTA DEL DÍA
-$ 559
-$ 36335
-35% OFF
-Birdman Creatina Monohidratada En Polvo 450g Sabor Natural",a,
-P1042,"OFERTA DEL DÍA
-$ 2,699
-$ 1,349
-50% OFF
-Envío gratis
-Paquete De 2 Mesas Plegables Portafolio De Plástico 1.8",a,
-P1042,"OFERTA DEL DÍA
-$ 1,499
-$ 74950
-50% OFF
-Envío gratis
-Tenis Para Hombre Nike Court Royale",a,
-P1042,"OFERTA DEL DÍA
-$ 5,900
-$ 4,720
+P0956,"OFERTA DEL DÍA
+$ 1,799
+$ 1,439
 20% OFF
-18 meses sin intereses
-de $ 262
 Envío gratis
-Kit Starlink De Internet Vía Satélite",a,
-P1042,"OFERTA DEL DÍA
+Under Armour Charged Assert 10 Hombre Adultos",a,
+P0956,"OFERTA DEL DÍA
+$ 3,980
+$ 2,399
+39% OFF
+Envío gratis
+Xiaomi Pocophone Poco M5s Dual Sim 256 Gb Gris 8 Gb Ram",a,
+P0956,"$ 1,199
+$ 56065
+53% OFF
+6 meses sin intereses
+de $ 93
+Envío gratis
+Bota Tactica Hombre Casquillo Industrial Trabajo Botines P41",a,
+P0956,"OFERTA DEL DÍA
 $ 15,999
 $ 9,499
 40% OFF
@@ -243,286 +288,384 @@ $ 9,499
 de $ 527
 Envío gratis
 Laptop Lenovo Ideapad 3 15.6'' Ryzen 7 16gb Ram 512gb Ssd Color Sand",a,
-P1042,"OFERTA DEL DÍA
-$ 7,433
-$ 5,887
+P0956,"$ 568
+$ 44720
+21% OFF
+Birdman Creatina Monohidratada En Polvo 450g Sabor Natural",a,
+P0956,"OFERTA DEL DÍA
+$ 6,944
+$ 4,990
+28% OFF
+Envío gratis
+Consola Xbox Series S 512gb Color Blanco",a,
+P0956,"$ 3,058
+$ 1,859
+39% OFF
+9 meses sin intereses
+de $ 206
+Envío gratis
+Combo 2 Ventiladores Omnibreeze 40 Pul Torre 4 Vel Control",a,
+P0956,"OFERTA DEL DÍA
+$ 3,980
+$ 2,399
+39% OFF
+Envío gratis
+Xiaomi Poco M5s 8gb 256gb 6.43 Amoled 64mp 5000mah 33w Azul",a,
+P0956,"OFERTA DEL DÍA
+$ 5,900
+$ 4,720
 20% OFF
 18 meses sin intereses
-de $ 327
+de $ 262
 Envío gratis
-Xiaomi Pocophone Poco X6 Pro 5G Dual SIM 512 GB negro 12 GB RAM",a,
-P1042,"OFERTA DEL DÍA
-$ 539
-$ 26950
-50% OFF
-Envío gratis
-Gel Cerave Limpiador Espumoso Piel Normal A Grasa Sin perfume De 473 Ml",a,
-P1042,"OFERTA DEL DÍA
-$ 704
-$ 300
-57% OFF
-Envío gratis
-Eucerin Oil Control Toque Seco protector solar fps50+ 50ml",a,
-P1042,"$ 1,048
-$ 70216
-33% OFF
-Envío gratis
-Mesa 180cm de exterior Vitasense Garden MESA-03 de acero/plástico color blanco",a,
-P1042,"$ 8,988
-$ 7,999
-11% OFF
-Envío gratis
-Consola Playstation 5 1 Tb Slim Digital Mega Pack Ratchet & Clank: Rift Apart, Returnal Blanco",a,
-P1042,"OFERTA DEL DÍA
-$ 25,999
-$ 12,999
-50% OFF
+Kit Starlink De Internet Vía Satélite",a,
+P0956,"OFERTA DEL DÍA
+$ 14,999
+$ 7,299
+51% OFF
 18 meses sin intereses
-de $ 722
+de $ 405
 Envío gratis
-Apple Macbook Air (13 pulgadas, 2020, Chip M1, 256 GB de SSD, 8 GB de RAM) - Gris espacial - Distribuidor autorizado",a,
-P1042,Regístrate aquí,a,
-P1042,electrónicos,a,
-P1042,moda,a,
-P1042,calzado,a,
-P1042,consolas y videojuegos,a,
-P1042,hogar,a,
-P1042,mucho más,a,
-P1042,pantallas,a,
-P1042,celulares,a,
-P1042,laptops,a,
-P1042,refrigeradores,a,
-P1042,tenis,a,
-P1042,Conoce más,a,
-P1042,Accesorios para Vehículos,a,
-P1042,Agro,a,
-P1042,Alimentos y Bebidas,a,
-P1042,Animales y Mascotas,a,
-P1042,Antigüedades y Colecciones,a,
-P1042,"Arte, Papelería y Mercería",a,
-P1042,"Autos, Motos y Otros",a,
-P1042,Bebés,a,
-P1042,Belleza y Cuidado Personal,a,
-P1042,Cámaras y Accesorios,a,
-P1042,Celulares y Telefonía,a,
-P1042,Computación,a,
-P1042,Consolas y Videojuegos,a,
-P1042,Construcción,a,
-P1042,Trabaja con nosotros,a,
-P1042,Términos y condiciones,a,
-P1042,Cómo cuidamos tu privacidad,a,
-P1042,Accesibilidad,a,
-P1042,Ayuda,a,
-P1042,Hot Sale,a,
-P1042,Mercado Libre,a,
-P1042,Centro de Privacidad.,a,
-P1042,te da envío gratisEn carritos desde $ 299,button,
-P1042,Envío gratis,button,
-P1042,Miles de productos del mundo a tu casa,button,
-P1042,"Más relevantes
+Laptop Lenovo Ideapad Slim 3 15.6'' Ci5 8gb + 512gb Ssd",a,
+P0956,"$ 934
+$ 44894
+51% OFF
+6 meses sin intereses
+de $ 74
+Envío gratis
+Hidrolavadora Electrica Pistola Para Lavado Autos Portatil",a,
+P0956,Regístrate aquí,a,
+P0956,electrónicos,a,
+P0956,moda,a,
+P0956,calzado,a,
+P0956,consolas y videojuegos,a,
+P0956,hogar,a,
+P0956,mucho más,a,
+P0956,pantallas,a,
+P0956,celulares,a,
+P0956,laptops,a,
+P0956,refrigeradores,a,
+P0956,tenis,a,
+P0956,Conoce más,a,
+P0956,Tenis Air Force 1,a,
+P0956,Tenis Nike Air Ma,a,
+P0956,Tenis Puma mujer,a,
+P0956,Tenis Puma hombre,a,
+P0956,Tenis Balenciaga,a,
+P0956,Nike Panda,a,
+P0956,Nike Mercurial,a,
+P0956,Adidas Samba,a,
+P0956,Adidas Campus,a,
+P0956,Adidas Forum Low,a,
+P0956,Adidas Predator,a,
+P0956,Samsung S23 Ultra,a,
+P0956,Samsung Galaxy,a,
+P0956,Samsung S23,a,
+P0956,Samsung S22 Ultra,a,
+P0956,Samsung S20,a,
+P0956,Samsung S21,a,
+P0956,iPhone 11,a,
+P0956,iPhone 12,a,
+P0956,iPhone 15,a,
+P0956,iPhone 14,a,
+P0956, iPhone 13 Pro Max,a,
+P0956,iPhone 12 Pro Max,a,
+P0956,Huawei Nova,a,
+P0956,Pantalla Samsung,a,
+P0956,Pantalla Hisense,a,
+P0956,Pantalla hasta 50 pulgadas,a,
+P0956,Pantalla desde 58 pulgadas,a,
+P0956,Laptop Lenovo,a,
+P0956,Laptop HP,a,
+P0956,Laptop Samsung,a,
+P0956,Laptop Dell,a,
+P0956,Laptop Asus,a,
+P0956,HP Pavilion,a,
+P0956,Asus Vivobook,a,
+P0956,Lenovo Ideapad 3,a,
+P0956,HP Pavilion X360,a,
+P0956,Lenovo Ideapad,a,
+P0956,Refrigeradores,a,
+P0956,Refrigerador LG,a,
+P0956,Lavadora Whirlpool,a,
+P0956,Lavadoras Elektra,a,
+P0956,Lavadora automática,a,
+P0956,Lavadora Whirlpool,a,
+P0956,Mini lavadora portátil,a,
+P0956,Colchón matrimonial,a,
+P0956,Colchón inflable,a,
+P0956,Colchón king size,a,
+P0956,Colchones Luuna,a,
+P0956,Colchones Spring Air,a,
+P0956,Colchón Spring Air matrimonial,a,
+P0956,Colchón inflable matrimonial,a,
+P0956,Colchón Emma,a,
+P0956,Maybelline,a,
+P0956,Eucerin,a,
+P0956,Cetaphil,a,
+P0956,Neutrogena,a,
+P0956,Loreal,a,
+P0956,Cicatricure,a,
+P0956,Garnier,a,
+P0956,Protector solar Nivea,a,
+P0956,Nivea Sun protector solar ,a,
+P0956,Eucerin protector solar,a,
+P0956,Protector solar Neutrogena,a,
+P0956,Neutrogena Sun Fresh,a,
+P0956,Cetaphil jabón,a,
+P0956,Cetaphil crema,a,
+P0956,Eucerin Oil Control,a,
+P0956,Crema Nivea,a,
+P0956,Garnier Skin Active,a,
+P0956,Dermopure Eucerin,a,
+P0956,Crema Neutrogena,a,
+P0956,Eucerin Aquaphor,a,
+P0956,Neutrogena Hydro Boost,a,
+P0956,Agua Micelar Garnier,a,
+P0956,Loreal ácido hialurónico,a,
+P0956,Serum Garnier,a,
+P0956,Retinol Loreal,a,
+P0956,Mascarilla Garnier,a,
+P0956,Garnier vitamina C,a,
+P0956,Perfume Carolina Herrera,a,
+P0956,La Vida es Bella perfume,a,
+P0956,Perfumes de mujer,a,
+P0956,Perfumes para hombre,a,
+P0956,Jean Paul Gaultier perfume,a,
+P0956,Miss Dior perfume,a,
+P0956,Scandal perfume,a,
+P0956,Dolce Gabbana perfume,a,
+P0956,Accesorios para Vehículos,a,
+P0956,Agro,a,
+P0956,Alimentos y Bebidas,a,
+P0956,Animales y Mascotas,a,
+P0956,Antigüedades y Colecciones,a,
+P0956,"Arte, Papelería y Mercería",a,
+P0956,"Autos, Motos y Otros",a,
+P0956,Bebés,a,
+P0956,Belleza y Cuidado Personal,a,
+P0956,Cámaras y Accesorios,a,
+P0956,Celulares y Telefonía,a,
+P0956,Computación,a,
+P0956,Consolas y Videojuegos,a,
+P0956,Construcción,a,
+P0956,Trabaja con nosotros,a,
+P0956,Términos y condiciones,a,
+P0956,Cómo cuidamos tu privacidad,a,
+P0956,Accesibilidad,a,
+P0956,Ayuda,a,
+P0956,Hot Sale,a,
+P0956,Mercado Libre,a,
+P0956,Centro de Privacidad.,a,
+P0956,te da envío gratisEn carritos desde $ 299,button,
+P0956,Envío gratis,button,
+P0956,Miles de productos del mundo a tu casa,button,
+P0956,"Más relevantes
 Más relevantes",button,
-P1042,1,button,
-P1042,2,button,
-P1042,3,button,
-P1042,4,button,
-P1042,5,button,
-P1042,6,button,
-P1042,7,button,
-P1042,8,button,
-P1042,9,button,
-P1042,10,button,
-P1042,Más información,button,
-P1042,Aceptar cookies,button,
-P1042,Configurar cookies,button,
-P1042,Agregar código postal,button,
-P1042,Más tarde,button,
-P1042,Mercado Libre México - Donde comprar y vender de todo,a,
-P1042,"Ingresa tu
+P0956,1,button,
+P0956,2,button,
+P0956,3,button,
+P0956,4,button,
+P0956,5,button,
+P0956,6,button,
+P0956,7,button,
+P0956,8,button,
+P0956,9,button,
+P0956,10,button,
+P0956,Más información,button,
+P0956,Aceptar cookies,button,
+P0956,Configurar cookies,button,
+P0956,Agregar código postal,button,
+P0956,Más tarde,button,
+P0956,Mercado Libre México - Donde comprar y vender de todo,a,
+P0956,"Ingresa tu
 código postal",a,
-P1042,Categorías,a,
-P1042,Ofertas,a,
-P1042,Historial,a,
-P1042,Supermercado,a,
-P1042,Vender,a,
-P1042,Crea tu cuenta,a,
-P1042,Ingresa,a,
-P1042,Mis compras,a,
-P1042,lamparas de pie,a,
-P1042,lamparas de buro,a,
-P1042,lamparas de mesa,a,
-P1042,lamparas colgantes,a,
-P1042,lamparas para recamara,a,
-P1042,lamparas de emergencia,a,
-P1042,lamparas para exteriores,a,
-P1042,Saltar a resultados,a,
-P1042,"Solo tiendas oficiales
-(55,510)",a,
-P1042,"Deportes y Fitness
-(52,343)",a,
-P1042,"Iluminación para el Hogar
-(630,272)",a,
-P1042,"Tuning
-(189,840)",a,
-P1042,"Refacciones Autos y Camionetas
-(66,218)",a,
-P1042,"Adornos y Decoración del Hogar
+P0956,Categorías,a,
+P0956,Ofertas,a,
+P0956,Historial,a,
+P0956,Supermercado,a,
+P0956,Vender,a,
+P0956,Crea tu cuenta,a,
+P0956,Ingresa,a,
+P0956,Mis compras,a,
+P0956,lamparas de pie,a,
+P0956,lamparas de buro,a,
+P0956,lamparas de mesa,a,
+P0956,lamparas colgantes,a,
+P0956,lamparas para recamara,a,
+P0956,lamparas de emergencia,a,
+P0956,lamparas para exteriores,a,
+P0956,Saltar a resultados,a,
+P0956,"Solo tiendas oficiales
+(44,661)",a,
+P0956,"Deportes y Fitness
+(54,714)",a,
+P0956,"Iluminación para el Hogar
+(624,513)",a,
+P0956,"Tuning
+(191,424)",a,
+P0956,"Refacciones Autos y Camionetas
+(68,930)",a,
+P0956,"Electrónica, Audio y Video
+(20,227)",a,
+P0956,"Jardín y Aire Libre
 (19,436)",a,
-P1042,"Jardín y Aire Libre
-(19,323)",a,
-P1042,"Electrónica, Audio y Video
-(18,419)",a,
-P1042,"Cámaras y Accesorios
-(15,030)",a,
-P1042,"Animales y Mascotas
-(14,238)",a,
-P1042,Mostrar más,a,
-P1042,"Meses sin intereses
-(908,327)",a,
-P1042,"En cuotas
-(1,129,535)",a,
-P1042,"Gratis
-(1,011,492)",a,
-P1042,"(15,801)",a,
-P1042,"Nuevo
-(1,109,223)",a,
-P1042,"Usado
-(10,767)",a,
-P1042,"Reacondicionado
-(222)",a,
-P1042,"Sonora
-(94,920)",a,
-P1042,"Distrito Federal
-(83,768)",a,
-P1042,"Tamaulipas
+P0956,"Adornos y Decoración del Hogar
+(17,967)",a,
+P0956,"Cámaras y Accesorios
+(16,159)",a,
+P0956,"Computación
+(15,820)",a,
+P0956,Mostrar más,a,
+P0956,"Meses sin intereses
+(915,681)",a,
+P0956,"En cuotas
+(1,126,597)",a,
+P0956,"Gratis
+(1,015,220)",a,
+P0956,"(15,005)",a,
+P0956,"Nuevo
+(1,105,116)",a,
+P0956,"Usado
+(11,877)",a,
+P0956,"Reacondicionado
+(444)",a,
+P0956,"Sonora
+(94,016)",a,
+P0956,"Distrito Federal
+(84,326)",a,
+P0956,"Tamaulipas
 (76,275)",a,
-P1042,"Estado De México
-(65,254)",a,
-P1042,"Puebla
-(45,652)",a,
-P1042,"Jalisco
-(40,689)",a,
-P1042,"San Luis Potosí
-(28,250)",a,
-P1042,"Baja California
-(21,696)",a,
-P1042,"Nuevo León
-(13,110)",a,
-P1042,Mostrar más,a,
-P1042,"Hasta $ 400
-(375,466)",a,
-P1042,"$400 a $950
-(369,867)",a,
-P1042,"Más de $950
-(384,315)",a,
-P1042,"Desde 70% OFF
-(565)",a,
-P1042,"Desde 60% OFF
-(10,741)",a,
-P1042,"Desde 50% OFF
-(13,464)",a,
-P1042,"Desde 40% OFF
-(29,075)",a,
-P1042,"Desde 30% OFF
-(55,527)",a,
-P1042,"Desde 25% OFF
-(80,280)",a,
-P1042,"Desde 20% OFF
-(101,644)",a,
-P1042,"Desde 15% OFF
-(183,683)",a,
-P1042,"Desde 10% OFF
-(224,480)",a,
-P1042,Mostrar más,a,
-P1042,"Genérica
-(156,510)",a,
-P1042,"Rivera
-(39,294)",a,
-P1042,"Mundo Lucido
-(14,763)",a,
-P1042,"TYC
-(13,542)",a,
-P1042,"Tecnolite
-(13,431)",a,
-P1042,"Depo
-(12,654)",a,
-P1042,"Led
+P0956,"Estado De México
+(62,091)",a,
+P0956,"Puebla
+(41,584)",a,
+P0956,"Jalisco
+(40,917)",a,
+P0956,"San Luis Potosí
+(27,346)",a,
+P0956,"Baja California
+(20,679)",a,
+P0956,"Nuevo León
+(10,173)",a,
+P0956,Mostrar más,a,
+P0956,"Hasta $ 400
+(370,949)",a,
+P0956,"$400 a $950
+(377,775)",a,
+P0956,"Más de $950
+(377,986)",a,
+P0956,"Desde 70% OFF
+(114)",a,
+P0956,"Desde 60% OFF
+(4,977)",a,
+P0956,"Desde 50% OFF
+(9,163)",a,
+P0956,"Desde 40% OFF
+(27,033)",a,
+P0956,"Desde 30% OFF
+(52,359)",a,
+P0956,"Desde 25% OFF
+(77,337)",a,
+P0956,"Desde 20% OFF
+(97,231)",a,
+P0956,"Desde 15% OFF
+(198,484)",a,
+P0956,"Desde 10% OFF
+(239,281)",a,
+P0956,Mostrar más,a,
+P0956,"Oferta del día
+(2)",a,
+P0956,"Genérica
+(153,180)",a,
+P0956,"Rivera
+(39,072)",a,
+P0956,"TYC
+(15,540)",a,
+P0956,"Mundo Lucido
+(15,207)",a,
+P0956,"Depo
+(13,098)",a,
+P0956,"Led
 (10,989)",a,
-P1042,"Volteck
-(6,549)",a,
-P1042,"Shenkenuo
-(6,438)",a,
-P1042,Mostrar más,a,
-P1042,"Internacional
-(605,394)",a,
-P1042,"Local
-(514,818)",a,
-P1042,"Mejores vendedores
-(613,238)",a,
-P1042,lámparas decorativos,a,
-P1042,lámparas cuarto,a,
-P1042,nordic naturals children s dha omega 3,a,
-P1042,lámparas para el cuarto,a,
-P1042,lamparas panel,a,
-P1042,Lámpara Tactica Linterna Potente Con Martillo Emergencia Color de la linterna Blanco Color de la luz Negro,a,
-P1042,Linterna Táctica Recargable Lámpara De Mano Portátil Led+cob,a,
-P1042,Lámpara Táctica Led+lampara De Cabeza Recargable Usb 2000lm Color de la luz Negro,a,
-P1042,4pcs Lampara Tactica Recargable Led 2000l Linterna Lateral Color de la linterna Negro Color de la luz Blanco,a,
-P1042,Lámpara Táctica Led+lampara De Cabeza Recargable Usb 2000lm Color de la luz Negro,a,
-P1042,Lámpara Táctica 32000 Lm Batería Extra Grande Usb Recargable Luz Blanca,a,
-P1042,Lámpara Linterna Táctica Luz Negra Uv Ultravioleta Campismo Multiusos Seguridad Alacranes Batería Recargable Led Q5 Color de la linterna Negro,a,
-P1042,2 Piezas Linterna Militar Portátil Lámpara Táctica 1200 Lm Color de la luz Blanco,a,
-P1042,Lámpara Táctica Recargable L45 Campismo Linterna Potente Color de la luz Negro,a,
-P1042,2 Piezas Linterna Militar Portátil Lámpara Táctica 1200 Lm Color de la luz Blanco,a,
-P1042,4pcs Lampara Tactica Recargable Led 2000l Linterna Lateral Color de la linterna Negro Color de la luz Blanco,a,
-P1042,Lámpara De Cabeza Con Sensor Impermeable Recargable 2pcs,a,
-P1042,Lámpara Tipo Minero Recargable Y Potente De Cacería Color de la luz Blanco,a,
-P1042,Lámpara Tactica Linterna Potente Con Martillo Emergencia Color de la linterna Blanco Color de la luz Negro,a,
-P1042,Lámpara Táctica Ultra Potente 100000 Lúmenes Con Power Bank,a,
-P1042,Linterna Táctica Recargable Lámpara De Mano Portátil Led+cob,a,
-P1042,Lámpara Linterna Táctica Luz Negra Ultravioleta Campismo Multiusos Seguridad Alacranes Batería Recargable Led Q5 Uv Color de la linterna Negro,a,
-P1042,Lampara Tipo Pluma De Bolsillo Examen Diagnostico Luz Medico Color De La Linterna Rosa Color De La Luz Amarillo,a,
-P1042,Foco Ventilador De Techo Luz Led 30w Para Socket Y Corriente,a,
-P1042,Lámpara De Escritorio Con Brazo Oscilante De Metal 360° Estructura Blanco Pantalla Blanco,a,
-P1042,Lampara Led De Sobreponer 18w Plafón Pack 10 Piezas Color Blanco,a,
-P1042,Lámpara De Escritorio Con Brazo Oscilante De Metal 360° Estructura Negro Pantalla Negro,a,
-P1042,Lampara Panel Led Plafon Sobreponer 30 Cm Redonda 24w Frio,a,
-P1042,Lámpara Luna 15cm 3d 16 Colores Touch/control Recargable Color de la estructura Madera clara,a,
-P1042,Lámpara De Techo Colgante Y Moderna Con 6 Luces,a,
-P1042,Lampara Sistema Lampara De Cristal Esferas Con Luz Esferas Color De La Estructura Saturn Color De La Pantalla Saturn,a,
-P1042,Paquete 10 Piezas Lampara Sobreponer Plafon Led 18 W,a,
-P1042,5pz Reflector Led 20w Luminario Exterior R18w30mm20 - Tlrl04 Carcasa Negro Luz Blanco frío,a,
-P1042,Lámpara Led Empotrable 5w Spot Para Bote 3 Pulgadas 10 Pz Color Blanco,a,
-P1042,Lámpara Led YYUgolo Sol-800 Luminaria Suburbana Alumbrado 800w Color Blanco,a,
-P1042,Lámpara Antorcha Led Minecraft Brownstone Luz Nocturna De S Color De La Estructura 1,a,
-P1042,Paquete 10 Lamparas De Empotrar 3w Plafon O Bote Luz Led Color Blanco,a,
-P1042,Lámpara De Escritorio Brazo Giratoria 360° Doblar,a,
-P1042,Megaluz Lampara Redonda Led 18w Empotrar Plafon Luz Blanca T2042,a,
-P1042,Lampara De Cabeza Wuben H1 Linternas Recargables,a,
-P1042,Proyector De Estrella Galaxia Astronautas Lampara De Noche,a,
-P1042,Lampara Sobreponer Led 12w C Sensor De Movimiento Luz Blanca Color Blanco,a,
-P1042,"Lámpara Detectora De Billetes Falsos, Compacta",a,
-P1042,"1x Luz Nocturna De Bola De Cristal De 3d, Lámpara De Cristal Color De La Estructura Saturno Color De La Pantalla Saturn",a,
-P1042,Empotrado Plafon Led 1w Spot Satinado Luz Blanca 10 Piezas Color Plateado,a,
-P1042,Reflector Led 50 Watts Ultradelgado Exterior Alta Potencia Color de la carcasa Negro Protección IP66 Contra Agua,a,
-P1042,Tubo Led Regleta 22w 120cm Decorativa Interiores 10 Piezas,a,
-P1042,Romantic Led Night Led De Flores De Tulipan Y Color De La Estructura Azul Color De La Pantalla Azul,a,
-P1042,Lampara Panel Led Plafon Sobreponer 30 Cm Redonda 24w Frio Color Blanco,a,
-P1042,Lampara Proyector De Estrellas Luces Led Niños Usb O Pilas Color de la estructura Azul,a,
-P1042,Lámpara Colgante De Techo Vintage Metal Ajustable Moderna,a,
-P1042,"Lámpara Led De Lectura Para Escritorio, Recargable Usb Color de la estructura Blanco",a,
-P1042,Lampara De Fotocurado Para Resinas Woodpecker Rta Mini S,a,
-P1042,Lámpara led Adir de techo Adir AD-4277 18W 100V/240V,a,
-P1042,Dapon Lámpara De Escritorio Mesa Con Brazo Led 10 Modos 360° Color de la estructura Blanco,a,
-P1042,Lampara Luminaria Luz 18w Ajustable 175mm Diametro 5 Piezas,a,
-P1042,Lámpara Antorcha Minecraft Brownstone Luz Nocturna Led De S,a,
-P1042,Spot Led 15w Led Ajustable Bote Integral Luz Cálida 10 Pzs. Color Cálido,a,
-P1042,Set De 2 Lamparas De Mesa Buro Ceramica Estilo Minimalista Estructura Blanco,a,
-P1042,Siguiente,a,
-P1042,Trabaja con nosotros,a,
-P1042,Términos y condiciones,a,
-P1042,Cómo cuidamos tu privacidad,a,
-P1042,Accesibilidad,a,
-P1042,Ayuda,a,
-P1042,Hot Sale,a,
-P1042,Mercado Libre,a,
-P1042,Centro de Privacidad.,a,
+P0956,"Tecnolite
+(9,546)",a,
+P0956,"Volteck
+(6,882)",a,
+P0956,"Shenkenuo
+(6,327)",a,
+P0956,Mostrar más,a,
+P0956,"Internacional
+(615,051)",a,
+P0956,"Local
+(502,608)",a,
+P0956,"Mejores vendedores
+(600,015)",a,
+P0956,lámparas decorativos,a,
+P0956,lámparas cuarto,a,
+P0956,nordic naturals children s dha omega 3,a,
+P0956,lámparas para el cuarto,a,
+P0956,lamparas panel,a,
+P0956,Lámpara Táctica Ultra Potente 100000 Lúmenes Con Power Bank,a,
+P0956,Lámpara Táctica Recargable L45 Campismo Linterna Potente Color de la luz Negro,a,
+P0956,Linterna Táctica Recargable Lámpara De Mano Portátil Led+cob,a,
+P0956,4pcs Lampara Tactica Recargable Led 2000l Linterna Lateral Color de la linterna Negro Color de la luz Blanco,a,
+P0956,Lámpara Táctica 32000 Lm Batería Extra Grande Usb Recargable Luz Blanca,a,
+P0956,Lámpara Táctica Led+lampara De Cabeza Recargable Usb 2000lm Color de la luz Negro,a,
+P0956,Lámpara Linterna Táctica Luz Negra Uv Ultravioleta Campismo Multiusos Seguridad Alacranes Batería Recargable Led Q5 Color de la linterna Negro,a,
+P0956,2 Piezas Linterna Militar Portátil Lámpara Táctica 1200 Lm Color de la luz Blanco,a,
+P0956,Lámpara Tipo Minero Recargable Y Potente De Cacería Color de la luz Blanco,a,
+P0956,Lámpara Imán De Linterna De Trabajo Recargable Inspección,a,
+P0956,Romantic Led Night Led De Flores De Tulipan Y Color De La Estructura Azul Color De La Pantalla Azul,a,
+P0956,Lámpara De Diagnóstico Recargable Luz Ultravioleta 3 Colores,a,
+P0956,Lampara Tactica 90000lm Rechargeable Led Linterna De Camping Color de la linterna Negro Color de la luz Blanco Lacasi XHP70,a,
+P0956,Lámpara De Cabeza Con Sensor Impermeable Recargable 2pcs,a,
+P0956,Lámpara Táctica Recargable L45 Campismo Linterna Potente Color de la luz Negro,a,
+P0956,Lámpara De Escritorio Led De 360° 3 Modos Con 10 Niveles Ng,a,
+P0956,Linterna Táctica Recargable Lámpara De Mano Portátil Led+cob,a,
+P0956,Lampara Tactica Recargable 2000 Linterna Lateral Aluminio Color de la luz Blanco,a,
+P0956,Lámpara Táctica Ultra Potente 100000 Lúmenes Con Power Bank,a,
+P0956,Lámpara De Trabajo Recargable 10w 360° Power Bank Tecnolite Color de la linterna Azul Color de la luz Luz de Día,a,
+P0956,Lampara Tipo Pluma De Bolsillo Examen Diagnostico Luz Medico Color De La Linterna Verde Color De La Luz Blanco,a,
+P0956,Lámpara Táctica Recargable Mini Linterna Nicron B74e,a,
+P0956,Lámpara Linterna Táctica Luz Negra Ultravioleta Campismo Multiusos Seguridad Alacranes Batería Recargable Led Q5 Uv Color de la linterna Negro,a,
+P0956,Lampara Panel Led Plafon Sobreponer 30 Cm Redonda 24w Frio,a,
+P0956,Lámpara De Escritorio Con Brazo Oscilante De Metal 360° Estructura Blanco Pantalla Blanco,a,
+P0956,Lampara Led De Sobreponer 18w Plafón Pack 10 Piezas Color Blanco,a,
+P0956,Lámpara De Escritorio Con Brazo Oscilante De Metal 360° Estructura Negro Pantalla Negro,a,
+P0956,Lampara luminaria luz 18w ajustable 175mm diametro color blanco Megaluz S09W18IB,a,
+P0956,Paquete 10 Piezas Lampara Sobreponer Plafon Led 18 W,a,
+P0956,Romantic Led Night Led De Flores De Tulipan Y Color De La Estructura Azul Color De La Pantalla Azul,a,
+P0956,Adir AD-1021 lámpara emergencia recargable extra plana 60 leds color blanco,a,
+P0956,Kit De 3 Lámparas Colgantes De Techo Marca Kwala 110v,a,
+P0956,Lámpara Luna 15cm 3d 16 Colores Touch/control Recargable Color de la estructura Madera clara,a,
+P0956,Lámpara De Techo Colgante Y Moderna Con 6 Luces,a,
+P0956,Lámpara De Pared Lámpara De Techo Cristal Moderna Decorativa Color Redondo Dorado,a,
+P0956,4pack De Luz Solar Mazorca Al Aire Libre Super Brillante Lám,a,
+P0956,"1x Luz Nocturna De Bola De Cristal De 3d, Lámpara De Cristal Color De La Estructura Saturno Color De La Pantalla Saturn",a,
+P0956,Lampara Sobreponer Led 12w C Sensor De Movimiento Luz Blanca Color Blanco,a,
+P0956,Lampara Luminaria Luz 18w Ajustable 175mm Diametro 5 Piezas,a,
+P0956,5pz Reflector Led 20w Luminario Exterior R18w30mm20 - Tlrl04 Carcasa Negro Luz Blanco frío,a,
+P0956,Lampara Sistema Lampara De Cristal Esferas Con Luz Esferas Color De La Estructura Saturn Color De La Pantalla Saturn,a,
+P0956,Lampara Sobreponer Led 18w Plafon Luz Blanca Aro Negro 22cm,a,
+P0956,Lámpara De Escritorio Brazo Giratoria 360° Doblar,a,
+P0956,Lámpara led Adir de techo Adir AD-4277 18W 100V/240V,a,
+P0956,Lámpara Colgante De Techo Vintage Metal Ajustable Moderna,a,
+P0956,Proyector De Estrella Galaxia Astronautas Lampara De Noche,a,
+P0956,Paquete 10 Focos Led 10w Rosca E27 Tamaño A19 810 Lumenes Luz Fria 6500k Lampara Candil Farol Watts Frio Ahorradores Led06/10w Geopower,a,
+P0956,Spot Led 15w Led Ajustable Bote Integral Luz Cálida 10 Pzs. Color Cálido,a,
+P0956,"3d Lampara De Noche Led Galaxia Bola Cristal, Sistema Solar Color De La Estructura Blanco Color De La Pantalla 3",a,
+P0956,Plafon Led 6w Empotrable Luz Blanca Redondo Di 15 Pzs Jwj Color Blanco,a,
+P0956,100 Leds Lámparas Solar Sensor Exteriores De Pared 4 Pcs,a,
+P0956,Lámpara De Pared Lámpara De Techo Cristal Moderna Decorativa Color Cuadrado Negro,a,
+P0956,Lámpara De Escritorio Brazo Giratoria 360° Con Clip Y Base Color De La Estructura Negro,a,
+P0956,Lampara Panel Led Plafon Sobreponer 30 Cm Redonda 24w Frio Color Blanco,a,
+P0956,Siguiente,a,
+P0956,Trabaja con nosotros,a,
+P0956,Términos y condiciones,a,
+P0956,Cómo cuidamos tu privacidad,a,
+P0956,Accesibilidad,a,
+P0956,Ayuda,a,
+P0956,Hot Sale,a,
+P0956,Mercado Libre,a,
+P0956,Centro de Privacidad.,a,

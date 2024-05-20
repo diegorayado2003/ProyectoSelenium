@@ -15,7 +15,7 @@ driver.get(url)
 
 # para iniciar conexcion con bd
 conn = psycopg2.connect(host ="localhost", dbname="selenium_prueba", user= "postgres", 
-                        password ="", port = "5432")
+                        password ="diegoTec.12", port = "5432")
 
 cur = conn.cursor()
 
@@ -174,6 +174,18 @@ with open('objetos.csv', 'w', newline='') as archivo_csv:
             else:
                print("No se ecntontro la barra de busqueda con ese palceholder")
 
+        time.sleep(5)
+        barras_de_busqueda, botones, inputs, selectores, hyperlinks = contar_mostrar_elementos_Interactuables()
+        for hyperlink in hyperlinks:
+            hyperlink_encontrado = False
+            if hyperlink.text == "Lámpara Tactica Linterna Potente Con Martillo Emergencia Color de la linterna Blanco Color de la luz Negro":
+                hyperlink_encontrado = True
+                hyperlink.click
+                print("Se dio click correctamente")
+            if not hyperlink_encontrado:
+                print("No se econtro el Hyperlink especificado")
+        time.sleep(5)
+        barras_de_busqueda, botones, inputs, selectores, hyperlinks = contar_mostrar_elementos_Interactuables()
     time.sleep(10)
     
       
@@ -182,7 +194,7 @@ with open('objetos.csv', 'w', newline='') as archivo_csv:
     # Ejecutar la función para contar y mostrar elementos
     barras_de_busqueda, botones, inputs, selectores, hyperlinks = contar_mostrar_elementos_Interactuables()
     crear_prueba()
-    barras_de_busqueda, botones, inputs, selectores, hyperlinks = contar_mostrar_elementos_Interactuables()
+
     
     
 
