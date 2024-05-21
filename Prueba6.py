@@ -15,7 +15,7 @@ driver.get(url)
 
 # para iniciar conexcion con bd
 conn = psycopg2.connect(host ="localhost", dbname="selenium_prueba", user= "postgres", 
-                        password ="diegoTec.12", port = "5432")
+                        password ="", port = "5432")
 
 cur = conn.cursor()
 
