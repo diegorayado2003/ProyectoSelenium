@@ -6,6 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import StaleElementReferenceException
+from fuzzywuzzy import fuzz
 
 # Initialize the web browser (Chrome)
 driver = webdriver.Chrome()
@@ -163,23 +164,47 @@ with open('objetos.csv', 'w', newline='') as archivo_csv:
 
     def crear_prueba():
         print("Se esta ejecutando la prueba")
+        expected_placeholder = "Buscar productos, marcas y más"
         for elemento in barras_de_busqueda or inputs:
-            if elemento.get_attribute('placeholder') == "Buscar productos, marcas y más…":
-                elemento.send_keys("Lamparas")
-                elemento.send_keys(Keys.RETURN)
-                print("Se puso el dato correcto en la barra de busqueda")
-
-                    
+            found_placeholder = elemento.get_attribute('placeholder')
+            similarity_placeholder = fuzz.partial_ratio(found_placeholder, expected_placeholder)
+            if similarity_placeholder > 60: 
+                user_input = input(f"Placeholder similar found: '{found_placeholder}' (expected: '{expected_placeholder}'). Do you want to proceed? (yes/no): ")
+                if user_input.lower() == "yes":
+                    elemento.send_keys("Lamparas")
+                    elemento.send_keys(Keys.RETURN)
+                    print(f"Se puso el dato correcto en la barra de búsqueda con placeholder '{found_placeholder}'")
+                else:
+                    print(f"El usuario decidió no continuar con el placeholder '{found_placeholder}' (expected: '{expected_placeholder}')")
             else:
-                print("No se ecntontro la barra de busqueda con ese palceholder")
+                print(f"Placeholder '{found_placeholder}' no es suficientemente similar a '{expected_placeholder}'")
 
+        
         time.sleep(10)
 
+    def prueba_hyperlinks():
+        print("Se esta ejecutando la prueba de hyperlinks")
+        hyperlink_encontrado = False
+        for hyperlink in hyperlinks:
+            if hyperlink.text == "Lampara Táctica Led+cob Recargable Impermeable Energía Solar": 
+                hyperlink.click()
+                print("Se dio click correctamente")
+                hyperlink_encontrado = True
+                time.sleep(10)
+                break
+        if not hyperlink_encontrado:
+            print("No se encontro el hyperlink")
+
+        time.sleep(10)
+    
     barras_de_busqueda, botones, inputs, selectores, hyperlinks = contar_mostrar_elementos_interactuables()
     crear_prueba()
     barras_de_busqueda, botones, inputs, selectores, hyperlinks = contar_mostrar_elementos_interactuables()
+    prueba_hyperlinks()
+    barras_de_busqueda, botones, inputs, selectores, hyperlinks = contar_mostrar_elementos_interactuables()
 
     print("\nSe creó un reporte de todos los objetos correctamente")
+
 
 # Commit changes and close database connection
 conn.commit()
@@ -189,5 +214,5 @@ print("Se mandó todo a la base de datos")
 
 time.sleep(5)
 
-# Close the browser
+
 driver.quit()

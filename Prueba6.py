@@ -166,7 +166,7 @@ with open('objetos.csv', 'w', newline='') as archivo_csv:
         print("Se esta ejecutando la prueba")
         for elemento in barras_de_busqueda or inputs:
             if elemento.get_attribute('placeholder') == "Buscar productos, marcas y más…":
-                elemento.send_keys("Queso")
+                elemento.send_keys("lamaparas")
                 elemento.send_keys(Keys.RETURN)
                 print("Se puso el dato correcto en la barra de busqueda")
 
@@ -174,8 +174,8 @@ with open('objetos.csv', 'w', newline='') as archivo_csv:
             else:
                print("No se ecntontro la barra de busqueda con ese palceholder")
 
-        time.sleep(5)
-        barras_de_busqueda, botones, inputs, selectores, hyperlinks = contar_mostrar_elementos_Interactuables()
+        time.sleep(10)
+       
         for hyperlink in hyperlinks:
             hyperlink_encontrado = False
             if hyperlink.text == "Lámpara Tactica Linterna Potente Con Martillo Emergencia Color de la linterna Blanco Color de la luz Negro":
@@ -184,8 +184,9 @@ with open('objetos.csv', 'w', newline='') as archivo_csv:
                 print("Se dio click correctamente")
             if not hyperlink_encontrado:
                 print("No se econtro el Hyperlink especificado")
-        time.sleep(5)
-        barras_de_busqueda, botones, inputs, selectores, hyperlinks = contar_mostrar_elementos_Interactuables()
+        
+        time.sleep(10)
+        
     time.sleep(10)
     
       
